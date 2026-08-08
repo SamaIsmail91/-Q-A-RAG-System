@@ -1,0 +1,29 @@
+DS201 - Data Science Fundamentals
+Frequently Asked Questions
+
+Q: Do I need to know machine learning before taking this course?
+A: No prior machine learning knowledge is required, only the CS101 prerequisite or equivalent basic Python skills. Machine learning concepts are introduced from scratch starting in Week 8.
+
+Q: Anaconda or plain pip - which should I use?
+A: Anaconda is recommended because it bundles Jupyter, NumPy, Pandas, and most scientific libraries in one installer, avoiding version conflicts. If you already have a working pip environment with these packages, that is also fine.
+
+Q: What is the difference between .loc and .iloc in Pandas?
+A: .loc selects rows and columns by label (e.g., df.loc[3, "score"] selects by the index label 3), while .iloc selects by integer position (e.g., df.iloc[3, 0] selects the 4th row regardless of its label). Use .iloc when you want positional access and .loc when you are filtering by named labels or conditions.
+
+Q: My groupby() result looks like a strange object, not a table. Why?
+A: Calling df.groupby("course") alone returns a GroupBy object, not a DataFrame. You need to chain an aggregation function afterward, such as df.groupby("course").mean() or df.groupby("course").agg({"score": "mean"}), to get a readable table back.
+
+Q: What dataset can I use for the capstone project?
+A: Any public dataset with at least 500 rows that has not been used in another course. Good sources include Kaggle, the UCI Machine Learning Repository, and government open-data portals. Your dataset choice must be approved by the instructor by Week 9.
+
+Q: How many lab notebooks are dropped if I miss one?
+A: None are automatically dropped. Unlike the homework in CS101, all 10 lab notebooks count toward your 25% lab grade, so missing one has more impact. Contact the instructor as early as possible if you anticipate missing a deadline.
+
+Q: What does "overfitting" actually mean in practice?
+A: It means your model learned patterns specific to the training data (including noise) rather than the true underlying relationship, so it performs well on training data but poorly on new, unseen data. You can detect it by comparing training accuracy to test/validation accuracy; a large gap is a warning sign.
+
+Q: Can I use a deep learning library like TensorFlow or PyTorch for the capstone?
+A: This course focuses on scikit-learn and classical machine learning methods. You may use deep learning libraries for the capstone project only with prior instructor approval, since they are not covered in lecture.
+
+Q: Is the midterm open-book?
+A: The midterm allows a single handwritten page of notes but is otherwise closed-book and closed-laptop. It focuses on NumPy, Pandas, and descriptive statistics from Weeks 1-6.

@@ -1,0 +1,15 @@
+week,date,topic,reading,assignment_due
+1,2026-09-02,"Data science workflow, Jupyter, NumPy basics","Lecture Notes Sec. 1",None
+2,2026-09-09,"NumPy arrays, broadcasting, vectorization","Lecture Notes Sec. 1",Lab Notebook 1
+3,2026-09-16,"Pandas Series and DataFrames","Lecture Notes Sec. 2",Lab Notebook 2
+4,2026-09-23,"Data cleaning: missing values, duplicates, types","Lecture Notes Sec. 2",Lab Notebook 3
+5,2026-09-30,"Descriptive statistics and distributions","Lecture Notes Sec. 3",Lab Notebook 4
+6,2026-10-07,"Data visualization with Matplotlib and Seaborn","Lecture Notes Sec. 4",Lab Notebook 5
+7,2026-10-14,"Midterm Exam","Sections 1-4",Midterm Exam
+8,2026-10-21,"Intro to machine learning concepts","Lecture Notes Sec. 5",Lab Notebook 6
+9,2026-10-28,"Linear and logistic regression","Lecture Notes Sec. 5",Lab Notebook 7
+10,2026-11-04,"Group mini-project presentations",None,Group Mini-Project
+11,2026-11-11,"Decision trees and k-NN","Lecture Notes Sec. 5",Lab Notebook 8
+12,2026-11-18,"Model evaluation and cross-validation","Lecture Notes Sec. 6",Lab Notebook 9
+13,2026-11-25,"Capstone lab work",None,Lab Notebook 10
+14,2026-12-02,"Capstone presentations",None,Capstone Project
