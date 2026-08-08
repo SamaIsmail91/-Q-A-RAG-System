@@ -1,0 +1,20 @@
+# Course Compass — Course Q&A RAG System
+# Install with: pip install -r requirements.txt
+
+# --- UI ---
+streamlit>=1.38.0
+
+# --- Document parsing (PDF, DOCX, CSV/TXT) ---
+pypdf>=4.2.0
+python-docx>=1.1.2
+pandas>=2.2.0
+
+# --- Embeddings + Vector store ---
+sentence-transformers>=3.0.1
+chromadb>=0.5.5
+
+# --- LLM (answer generation) ---
+anthropic>=0.34.0
+
+# --- Config / environment ---
+python-dotenv>=1.0.1

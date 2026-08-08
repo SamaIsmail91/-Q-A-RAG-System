@@ -1,0 +1,18 @@
+# Environment / secrets
+.env
+.streamlit/secrets.toml
+
+# Vector database (rebuild locally with the ingestion pipeline)
+vector_db/*
+!vector_db/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS / editor cruft
+.DS_Store
+.idea/
+.vscode/
